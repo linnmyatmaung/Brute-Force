@@ -33,7 +33,7 @@ After each login attempt, the portal may reload the page or redirect to a new UR
 
 ## About Ruijie Captive Portal
 
-> <span style="color:orange; font-size:90%;">Ruijie Networks provides network equipment and captive portal solutions for Wi-Fi authentication. Weak or predictable voucher codes, without rate limits or extra security, may be vulnerable to brute-force attacks.</span>
+Ruijie Networks provides network equipment and solutions, including captive portal systems for Wi-Fi authentication. The captive portal typically requires users to enter a voucher code to gain internet access. Weak or predictable voucher codes can be vulnerable to brute-force attacks if there are no rate limits or additional security measures.
 
 ## Disclaimer
 
@@ -42,13 +42,4 @@ This tool is for educational and authorized penetration testing purposes only. U
 ## Files
 
 - `brute-force.user.js` — Main Tampermonkey userscript.
-
-## ⚠️ Important Security Considerations
-
-> **:warning: If the captive portal does not implement proper rate limits or additional security measures (such as CAPTCHA, account lockout, or IP blocking), brute-force attacks can succeed much more easily.**
->
-> - **No Rate Limits:** Without restrictions on the number of login attempts, attackers can try thousands of codes per minute.
-> - **No Additional Security Measures:** Lack of features like CAPTCHA or account lockout increases vulnerability.
-> - **Predictable Voucher Codes:** Simple or sequential codes are easier to guess.
-
-<span style="color:orange">**Always ensure your captive portal is protected with strong security controls to prevent unauthorized access.**</span>
+- `README.md` — Project documentation.
