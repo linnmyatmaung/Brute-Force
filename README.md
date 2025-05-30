@@ -33,7 +33,7 @@ After each login attempt, the portal may reload the page or redirect to a new UR
 
 ## About Ruijie Captive Portal
 
-Ruijie Networks provides network equipment and solutions, including captive portal systems for Wi-Fi authentication. The captive portal typically requires users to enter a voucher code to gain internet access. Weak or predictable voucher codes can be vulnerable to brute-force attacks if there are no rate limits or additional security measures.
+> <span style="color:orange; font-size:90%;">Ruijie Networks provides network equipment and captive portal solutions for Wi-Fi authentication. Weak or predictable voucher codes, without rate limits or extra security, may be vulnerable to brute-force attacks.</span>
 
 ## Disclaimer
 
