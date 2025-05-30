@@ -42,4 +42,13 @@ This tool is for educational and authorized penetration testing purposes only. U
 ## Files
 
 - `brute-force.user.js` — Main Tampermonkey userscript.
-- `README.md` — Project documentation.
+
+## ⚠️ Important Security Considerations
+
+> **:warning: If the captive portal does not implement proper rate limits or additional security measures (such as CAPTCHA, account lockout, or IP blocking), brute-force attacks can succeed much more easily.**
+>
+> - **No Rate Limits:** Without restrictions on the number of login attempts, attackers can try thousands of codes per minute.
+> - **No Additional Security Measures:** Lack of features like CAPTCHA or account lockout increases vulnerability.
+> - **Predictable Voucher Codes:** Simple or sequential codes are easier to guess.
+
+<span style="color:orange">**Always ensure your captive portal is protected with strong security controls to prevent unauthorized access.**</span>
