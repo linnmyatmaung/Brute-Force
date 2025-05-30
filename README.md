@@ -24,6 +24,13 @@ This project is a Tampermonkey userscript designed to automate brute-force attac
 3. **Navigate to the Ruijie captive portal login page**.
 4. The script will begin brute-forcing voucher codes automatically.
 
+After each login attempt, the portal may reload the page or redirect to a new URL containing a different `sessionId`. The script is designed to detect these changes and automatically continue the brute-force process with the updated url with new sessionId, ensuring uninterrupted operation even as the session changes.
+
+1. **Install Tampermonkey** in your browser.
+2. **Copy the script** from `brute-force.user.js` into a new Tampermonkey script.
+3. **Navigate to the Ruijie captive portal login page**.
+4. The script will begin brute-forcing voucher codes automatically.
+
 ## About Ruijie Captive Portal
 
 Ruijie Networks provides network equipment and solutions, including captive portal systems for Wi-Fi authentication. The captive portal typically requires users to enter a voucher code to gain internet access. Weak or predictable voucher codes can be vulnerable to brute-force attacks if there are no rate limits or additional security measures.
